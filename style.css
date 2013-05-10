@@ -73,10 +73,10 @@ body {
 
 .main .left .bl {
 	float: left;
-	width: 233px;
+	width: 235px;
 	min-height: 500px;
 	margin-top: 10px;
-	background-color: #ffcc00;
+	background: inherit;
 }
 
 .main .left .bl .bl,
@@ -85,13 +85,13 @@ body {
 }
 
 .main .left .ads {
-	width: 233px;
+	width: 235px;
 	height: 170px;
 	border-bottom: 1px solid white;	
 }
 
 .main .left .br {
-	width: 234px;
+	width: 236px;
 	min-height: 350px;
 	margin-top: 10px;
 	margin-left: 244px;
