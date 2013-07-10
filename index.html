@@ -5,17 +5,21 @@
 	<title>Naranji</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body id="bgcolor" class="bgcolor">
 	<div class="wide top">
-		<div class="shadow tleft"><a href="#"><img src="" alt="tablighat" width="475" height="95" /></a></div>
+		<div class="shadow tleft"><a href="#"><img src="image/tabligh1.jpg" alt="tablighat" width="475" height="95" /></a></div>
 		<div class="shadow tright">
+			<div class="select-color">
+				<a class="select-colorwhite" onclick=" document.getElementById('bgcolor').className = 'bgwhite' "></a>
+				<a class="select-colororange" onclick=" document.getElementById('bgcolor').className = '' "></a>
+			</div>
 			<div class="searchbox">
 				<div class="searchboximg">
 					<div class="searchboximg1">
 						<form id="search" method="get" action="http://www.google.com/search">
 							<input class="search-input" type="text" name="q" size="19" maxlength="255" value="" placeholder="جستجو..." style="color: rgb(119, 119, 119);" />
 							<input id="submit" type="submit" value="جستجو" />
-							<input type="hidden" name="sitesearch" value="http://narenji.ir" />
+							<input type="hidden" name="sitesearch" value="http://site.com" />
 						</form>
 					</div>
 				</div>
@@ -25,8 +29,8 @@
 	</div>
 	<div class="wide main">
 		<div class="left">
-			<div class="shadow tl"><a href="#"><img src="" alt="tablighat" width="230" height="230" /></a></div>
-			<div class="shadow tr"><a href="#"><img src="" alt="tablighat" width="230" height="230" /></a></div>
+			<div class="shadow tl"><a href="#"><img src="image/tabligh.jpg" alt="tablighat" width="230" height="230" /></a></div>
+			<div class="shadow tr"><a href="#"><img src="image/tabligh.jpg" alt="tablighat" width="230" height="230" /></a></div>
 			<div class="bl">
 				<div class="shadow account ads">
 					<div class="buxtitle">
@@ -57,6 +61,15 @@
 							<a target="_blank" href="#" rel="nofollow">لینک</a>
 						</p>
 					</div>
+					<div class="tabligh">
+						<p class="tblue">
+							<a target="_blank" href="#" rel="nofollow">عنوان</a>
+						</p>
+						<p class="tblack">توضیحات</p>
+						<p class="tgreen">
+							<a target="_blank" href="#" rel="nofollow">لینک</a>
+						</p>
+					</div>
 				</div>
 			</div>
 			<div class="shadow br">
@@ -68,8 +81,8 @@
 			</div>
 		</div>
 		<div class="right">
-			<div class="shadow ads"><a href="#"><img src="" alt="tablighat" width="230" height="230" /></a></div>
-			<div class="shadow ads ads1"><a href="#"><img src="" alt="tablighat" width="230" height="230" /></a></div>
+			<div class="shadow ads"><a href="#"><img src="image/tabligh.jpg" alt="tablighat" width="230" height="230" /></a></div>
+			<div class="shadow ads ads1"><a href="#"><img src="image/tabligh.jpg" alt="tablighat" width="230" height="230" /></a></div>
 			<div class="shadow sn1">
 				<div class="ml1 buxtitle">
 					<div class="buxtitle-square"></div>
@@ -78,7 +91,7 @@
 				</div>
 				<div class="htopic">
 					<div class="htopicimg">
-						<img src="" alt="topic" width="69" height="69" />
+						<img src="image/top.jpg" alt="topic" width="69" height="69" />
 					</div>
 					<div class="f htext"><a href="#">عنوان مطلب</a></div>
 				</div>
@@ -174,10 +187,10 @@
 				<div class="btsearch searchbox">
 					<div class="searchboximg">
 						<div class="searchboximg1">
-							<form id="search" method="get" action="http://www.google.com/search">
+							<form name="search" method="get" action="http://www.google.com/search">
 								<input class="search-input" type="text" name="q" size="19" maxlength="255" value="" placeholder="جستجو..." style="color: rgb(119, 119, 119);" />
 								<input id="submit" type="submit" value="جستجو" />
-								<input type="hidden" name="sitesearch" value="http://narenji.ir" />
+								<input type="hidden" name="sitesearch" value="http://site.com" />
 							</form>
 						</div>
 					</div>
