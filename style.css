@@ -727,19 +727,22 @@ div.pgnumber {
 }
 
 div.pgnumber .navigation div {
-	
+	background-color: #f6f6f6;
+	padding-top: 2px;
+	width: 80px;
+	height: 25px;
 }
 
 div.pgnumber .prepage {
 	float: right;
-	border: 1px dashed blue;
-	width: 70px;
-	height: 30px;
+	border-radius: 5px;
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
 }
 
 div.pgnumber .nextpage {
 	margin-right: auto;
-	border: 1px dashed blue;
-	width: 70px;
-	height: 30px;
+	border-radius: 5px;
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;
 }
